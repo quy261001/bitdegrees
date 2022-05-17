@@ -22,3 +22,21 @@ document.addEventListener("click", (e) => {
     loginMenu.classList.remove("active");
   }
 })
+
+// Header scroll
+const header = document.querySelector(".header")
+
+window.addEventListener("scroll", () => {
+  const scrollY = window.pageYOffset
+  if(scrollY >= 100) {
+    header.style.background = "#19202a"
+  } else {
+    header.style.background = "transparent"
+  }
+})
+// alert button
+const metamaskButton = document.querySelector(".metamaskButton");
+
+metamaskButton.addEventListener("click", () => {
+  alert("MetaMask not detected. Please try again from a MetaMask enabled browser.")
+});
