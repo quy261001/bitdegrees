@@ -62,10 +62,27 @@ p {
   cursor: pointer;
   transition: .1s;
 }
+.btn-green-sm:hover,
 .btn-green:hover {
   background: #9884fc;
   border-color: #9884fc;
 }
+.btn-green-sm {
+  font-family: "Work Sans","Open Sans",Helvetica,Arial,sans-serif;
+  color: #fff!important;
+  background-color: #02bb8c;
+  border-color: #02bb8c;
+  padding: 10px 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 3px;
+  font-weight: 500;
+  width: 230px;
+  max-width: 100%;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
 .green-text {
   text-decoration: none;
   color: #fff;
@@ -347,6 +364,7 @@ p {
   margin: 16px 0 48px;
   padding: 0 15px;
 }
+
 .container-categories a {
   font-family: Mulish, sans-serif;
   font-size: 13px;
@@ -413,6 +431,12 @@ p {
   margin-bottom: 24px;
 }
 .featured-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featured-container-test {
   position: relative;
   display: flex;
   align-items: center;
@@ -605,6 +629,9 @@ p {
   font-weight: 400;
   font-size: 16px; 
 }
+.title-sub-icon span {
+  font-weight: 600;
+}
 .title-sub-icon:last-of-type {
   padding: 0 0 24px;
 }
@@ -624,6 +651,7 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
   background-image: url("https://www.bitdegree.org/assets/homepage/discord-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -650,7 +678,6 @@ p {
 /* Videos */
 
 .videos {
-  margin: 48px 0;
   text-align: center;
   max-width: 1140px;
   margin: 0 auto;
@@ -731,6 +758,287 @@ p {
   object-fit: cover;
 }
 .news-btn {
-  margin-bottom: 16px;
+  margin-bottom: 42px;
   max-width: 292px;
+}
+/* exchanges */
+.exchanges {
+  margin: 24px 0;
+  background:#000330;
+}
+.exchanges-container {
+  display: flex;
+  justify-content: space-between;
+}
+.exchanges-left {
+  padding: 48px;
+}
+.exchanges-left ol {
+  padding-left: 40px;
+  margin-bottom: 16px;
+}
+.exchanges-left h2 {
+  color:#e4e4e4;
+  line-height: 45.5px;
+}
+.exchanges-left ol li,
+.exchanges-left p {
+  font-size:18px;
+  line-height:30px;
+  font-weight: 600;
+  color:hsla(0,0%,100%,.8);
+}
+.exchanges-right img {
+  max-width:636px;
+}
+/* evaluated */
+.evaluated {
+  margin: 48px 50px;
+  padding:0 15px;
+}
+.evaluated-first {
+  margin-bottom: 48px;
+  padding: 0 15px;
+  text-align: center;
+}
+.evaluated-container {
+  display: flex;
+  justify-content: space-between;
+  margin:24px 0;
+  padding:24px;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%);
+}
+.container-left {
+  padding: 0 15px;
+  text-align: center;
+}
+.container-left img {
+  max-width:235.5px;
+}
+.evaluated-link {
+  display: block;
+  text-decoration: none;
+  color: #02bb8c;
+  font-size: 16px;
+}
+.wrapper-accuracy {
+  display: flex;
+  margin-bottom: 16px;
+}
+.verified {
+  display:flex;
+  align-items: center;
+}
+.verified-content {
+  margin-left: 4px;
+  color: #02bb8c;
+  font-size: 12px;
+  font-weight: 600;
+}
+.staff {
+  margin-left: 16px;
+  padding: 4px 8px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  background: #e9385a;
+  border-radius: 3px;
+  letter-spacing: -.5px;
+}
+.container-main-accuracy {
+  padding-right: 15px;
+}
+.container-main-accuracy h2 {
+  margin-bottom: 0;
+}
+.container-main-accuracy h5 {
+  font-weight: 600; 
+  font-style: 24px;
+  margin: 0 0 16px;
+}
+.container-main-accuracy p {
+  width:501px;
+  font-size: 14px;
+  color:#6c757d;
+  font-weight: 300;
+}
+.container-information span {
+  font-size: 12px;
+  margin-right: 16px;
+  color:#6c757d;
+}
+.container-information span:last-of-type {
+  color:#e9385a;
+}
+.container-right {
+  padding: 0 17.75px;
+  
+}
+.container-rating {
+  font-size: 24px;
+  color:#29303b;
+}
+.rating-first {
+  font-size: 14px;
+  color:#6c757d;
+  text-transform: uppercase;
+}
+.container-rating-stats svg {
+  color:#f4c150;
+}
+.container-button {
+  margin: 16px 0;
+  text-align: center;
+}
+.container-button a {
+  text-decoration: none;
+  color:#fff;
+}
+/* comparison */
+.comparison {
+  margin: 48px auto;
+  max-width: 1140px;
+}
+.comparison table {
+  margin-bottom: 16px;
+ 
+}
+.text-light,.comparison-score-light,
+.comparison-action-light,.comparison-title-light,
+.comparison-header-light {
+  border-left: 1px solid #02bb8c;
+  border-right: 1px solid #02bb8c;
+  background-color: rgba(2,187,140,.3);
+}
+.comparison-header-light {
+  background-color: #02bb8c;
+}
+.comparison-action {
+  border-right: 1px solid #b6b6b6;
+  border-bottom: 1px solid #b6b6b6;
+  padding: 12px;
+}
+table {
+  border-spacing: 0;
+}
+table thead tr th {
+  padding:4px 12px;
+  color: #fff;
+  border: 1px solid #b6b6b6;
+}
+table thead tr th:nth-child(2),
+table thead tr th:nth-child(3){
+  background: #cdcdcd;
+}
+.comparison-title td,
+.comparison-title-light,.comparison-score td,
+.desc-light td
+{
+  border-right: 1px solid #b6b6b6;
+  padding:12px;
+  text-align:center;
+  font-size: 26px;
+  font-weight: 600;
+}
+.comparison-score td div:nth-child(1) {
+  font-size: 58px;
+}
+.comparison-icon svg {
+  color:#f4c150;
+}
+.desc-light td {
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+}
+.comparison-action td div{
+  text-align: center;
+  margin:auto;
+}
+.comparison-action td div a {
+  text-decoration: none;
+  color: #fff
+}
+ .comparison-action .comparsion-btn-link {
+  display:block;
+  margin-top: 16px;
+  color: #02bb8c;
+}
+/* cryptoexchange */
+.cryptoexchange {
+  max-width: 1140px;
+  margin: 48px auto;
+  padding:48px 0;
+}
+.cryptoexchange-container {
+  display: flex;
+  padding: 0 15px;
+}
+.cryptoexchange-card {
+  width: 25%;
+  border:1px solid #e1e7ec;
+  margin: 0 15px;
+}
+.cryptoexchange-card-top img {
+  max-width:89px;
+}
+.cryptoexchange-card-top {
+  display: flex;
+  justify-content:space-between; 
+  align-items: center;
+}
+.cryptoexchange-card-top div:nth-child(1),
+.cryptoexchange-card-top div:nth-child(2){
+  width: 50%;
+  text-align: center;
+  margin: 0 auto; 
+  padding: 15px 0;
+}
+.cryptoexchange-card-top div:nth-child(1),
+.cryptoexchange-card-top div:nth-child(2){
+  border: 1px solid #e1e7ec;
+}
+.cryptoexchange-card-top span {
+  text-transform: uppercase;
+}
+.cryptoexchange-card-main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.crytoexchange-card-point {
+  width: 50%;
+  text-align: center;
+  padding:15px 0;
+}
+.crytoexchange-score-text {
+  font-size: 36px;
+  font-weight: 600;
+}
+.crytoexchange-star {
+  color:#f4c150;
+  font-size: 12px;
+}
+.crytoexchange-positon {
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+}
+.crytoexchange-btn a {
+  display: block;
+  text-decoration: none;
+  color:#fff;
+  text-align: center;
+}
+/* tutorials */
+.tutorials-card-top {
+  max-width:255px;
+}
+.tutorials-btn {
+  max-width:364px;
 }

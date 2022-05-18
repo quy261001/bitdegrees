@@ -12,6 +12,9 @@
   width: 8px;
   height: 8px;
 }
+body {
+  line-height: 1.5;
+}
 ::-webkit-scrollbar-thumb {
   background: #dedede;
   border-radius: 35px;

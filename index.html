@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reponsive.css">
   <title>bitdegree</title>
 </head>
 <body>
@@ -16,8 +17,11 @@
         </a>
         <div>
           <button class="header-dropdown">
-            <i class="fas fa-th"></i>
+            <i class="fa fa-bars header-icon-bars"></i>
+            <i class="fas fa-th header-icon-th"></i>
           </button>
+        <a class="header-img-mobile" href="#"><img src="https://cdn.bitdegree.org/assets/bitdegree-logo-white.svg" alt="BitDegree">
+        </a>
           <div class="header-menu">
             <div class="header-menu-container">
               <a href="#" class="header-menu-link">
@@ -163,15 +167,17 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
           <p>1000+ Courses That Accelerated 1 Million+ Careers</p>
         </div>
         <div class="container-categories">
-          <a>Featured</a>
-          <a href="#">Blockchain</a>
-          <a href="#">Crypto Trading</a>
-          <a href="#">DeFi</a>
-          <a href="#">NFT</a>
-          <a href="#">GameFi</a>
-          <a href="#">dApps</a>
-          <a href="#">Blockchain Development</a>
-          <a href="#">Digital Skills</a>
+          <div class="test">
+            <a >Featured</a>
+            <a href="#">Blockchain</a>
+            <a href="#">Crypto Trading</a>
+            <a href="#">DeFi</a>
+            <a href="#">NFT</a>
+            <a href="#">GameFi</a>
+            <a href="#">dApps</a>
+            <a href="#">Blockchain Development</a>
+            <a href="#">Digital Skills</a>
+          </div>
         </div>
         <div class="container-input">
           <div>
@@ -203,66 +209,71 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
       </div>
     </div>
     <div class="featured-container">
-      <div class="featured-card">
-        <img src="https://www.bitdegree.org/storage/course-image/youth-crypto-introduction.jpg" alt="">
-        <div class="featured-content">
-          <div class="featured-evaluate">
-            <div>Danielius Janaitis</div>
-            <span class="featured-star"><i class="fa fa-star"></i>4.8 <span class="featured-star-five">(5)</span></span>
+      <div class="featured-container-test">
+        <div class="featured-card">
+          <img src="https://www.bitdegree.org/storage/course-image/youth-crypto-introduction.jpg" alt="">
+          <div class="featured-content">
+            <div class="featured-evaluate">
+              <div>Danielius Janaitis</div>
+              <span class="featured-star"><i class="fa fa-star"></i>4.8 <span class="featured-star-five">(5)</span></span>
+            </div>
+            <p>Beginner's Guide to Cryptocurrency by a Teen Instructor</p>
           </div>
-          <p>Beginner's Guide to Cryptocurrency by a Teen Instructor</p>
+          <p class="featured-seller">Free</p>
+          <a href="#">
+            <button class="btn-pink featured-btn">Start Learning Now</button>
+          </a>
+          
         </div>
-        <p class="featured-seller">Free</p>
-        <a href="#">
-          <button class="btn-pink featured-btn">Start Learning Now</button>
-        </a>
-        
-      </div>
-      <div class="featured-card">
-        <img src="https://www.bitdegree.org/storage/course-image/1167160-GwnDpcyjqN-how-to-beat-cryptocurrency-markets-with-algorithmic-trading-strategies.jpg" alt="">
-        <div class="featured-content">
-          <div class="featured-evaluate">
-            <div>Top Things To Know</div>
-            <span class="featured-star"><i class="fa fa-star"></i>5.0 <span class="featured-star-five">(4)</span></span>
+        <div class="featured-card">
+          <img src="https://www.bitdegree.org/storage/course-image/1167160-GwnDpcyjqN-how-to-beat-cryptocurrency-markets-with-algorithmic-trading-strategies.jpg" alt="">
+          <div class="featured-content">
+            <div class="featured-evaluate">
+              <div>Top Things To Know</div>
+              <span class="featured-star"><i class="fa fa-star"></i>5.0 <span class="featured-star-five">(4)</span></span>
+            </div>
+            <p>How To Beat Cryptocurrency Markets With Algorithmic Trading Strategies</p>
           </div>
-          <p>How To Beat Cryptocurrency Markets With Algorithmic Trading Strategies</p>
+          <p class="featured-seller">Free</p>
+          <a href="#">
+            <button class="btn-pink featured-btn">Start Learning Now</button>
+          </a>
+          
         </div>
-        <p class="featured-seller">Free</p>
-        <a href="#">
-          <button class="btn-pink featured-btn">Start Learning Now</button>
-        </a>
-        
-      </div>
-      <div class="featured-card">
-        <img src="https://www.bitdegree.org/storage/course-image/1167680-8QCyFCJcVE-blockchain-and-cryptocurrency-learn-by-playing-a-game-part-1.jpg" alt="">
-        <div class="featured-content">
-          <div class="featured-evaluate">
-            <div>Jesse Himmelstein</div>
-            <span class="featured-star"><i class="fa fa-star"></i>4.7<span class="featured-star-five">(38)</span></span>
+        <div class="featured-card">
+          <img src="https://www.bitdegree.org/storage/course-image/1167680-8QCyFCJcVE-blockchain-and-cryptocurrency-learn-by-playing-a-game-part-1.jpg" alt="">
+          <div class="featured-content">
+            <div class="featured-evaluate">
+              <div>Jesse Himmelstein</div>
+              <span class="featured-star"><i class="fa fa-star"></i>4.7<span class="featured-star-five">(38)</span></span>
+            </div>
+            <p>Blockchain and Cryptocurrency - Learn by playing a game! (Part 1)</p>
           </div>
-          <p>Blockchain and Cryptocurrency - Learn by playing a game! (Part 1)</p>
+          <p class="featured-seller">Free</p>
+          <a href="#">
+            <button class="btn-pink featured-btn">Start Learning Now</button>
+          </a>
+          
         </div>
-        <p class="featured-seller">Free</p>
-        <a href="#">
-          <button class="btn-pink featured-btn">Start Learning Now</button>
-        </a>
-        
-      </div>
-      <div class="featured-card">
-        <img src="https://www.bitdegree.org/storage/course-image/1169291-WYcYC0cYDd-blockchain-developer-course.jpg" alt="">
-        <div class="featured-content">
-          <div class="featured-evaluate">
-            <div>Thomas Wiesner</div>
-            <span class="featured-star"><i class="fa fa-star"></i>4.0<span class="featured-star-five">(1)</span></span>       
+        <div class="featured-card">
+          <img src="https://www.bitdegree.org/storage/course-image/1169291-WYcYC0cYDd-blockchain-developer-course.jpg" alt="">
+          <div class="featured-content">
+            <div class="featured-evaluate">
+              <div>Thomas Wiesner</div>
+              <span class="featured-star"><i class="fa fa-star"></i>4.0<span class="featured-star-five">(1)</span></span>       
+            </div>
+            <p>Become Ethereum Blockchain Developer (in 2022)</p>
           </div>
-          <p>Become Ethereum Blockchain Developer (in 2022)</p>
+          <p class="featured-seller featured-seller-best">$199.99</p>
+          <span class="featured-seller-new">$9.99</span>
+          <a href="#">
+            <button class="btn-pink featured-btn">learn More</button>
+          </a>
         </div>
-        <p class="featured-seller featured-seller-best">$199.99</p>
-        <span class="featured-seller-new">$9.99</span>
-        <a href="#">
-          <button class="btn-pink featured-btn">learn More</button>
-        </a>
       </div>
+       
+     
+      
     </div>
 
   </section>
@@ -309,7 +320,7 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
 
   <section class="videos">
       <h2>Crypto Explainer Videos - Understand Blockchain With Ease</h2>
-      <p>Most popular blockchain and crypto topics simply explained by using examples, interesting stories and clear analogies.</p>
+      <p class="videos-desc">Most popular blockchain and crypto topics simply explained by using examples, interesting stories and clear analogies.</p>
     <div class="videos-container">
       <div class="videos-card">
         <a href="#" class="videos-link">
@@ -401,14 +412,13 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
     </div>
   </section>
 
-
   <section class="videos">
     <h2>Always Be Informed With The Latest Crypto News</h2>
-    <p>Never miss out on important events and fresh news of the crypto world. Browse real facts - not marketing claims.</p>
+    <p class="videos-desc">Never miss out on important events and fresh news of the crypto world. Browse real facts - not marketing claims.</p>
   <div class="videos-container">
     <div class="news-card">
       <a href="#" class="videos-link">
-        <div class="videos-card-item">
+        <div class="news-card-item">
             <img class="news-card-top" 
             src="./img/new-1.jpg" alt="What is an Automated Market Maker in Crypto? (Animated)">
           <div class="videos-card-body">
@@ -420,7 +430,7 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
     </div>
     <div class="news-card">
       <a href="#" class="videos-link">
-        <div class="videos-card-item">
+        <div class="news-card-item">
             <img class="news-card-top" src="./img/new-2.jpg">
           <div class="videos-card-body">
             <div class="videos-card-label">NEWS</div>
@@ -431,7 +441,7 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
     </div>
     <div class="news-card">
       <a href="#" class="videos-link">
-        <div class="videos-card-item">
+        <div class="news-card-item">
             <img class="news-card-top" src="./img/new-3.jpg">
           <div class="videos-card-body">
             <div class="videos-card-label">NEWS</div>
@@ -442,7 +452,7 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
     </div>
     <div class="news-card">
       <a href="#" class="videos-link">
-        <div class="videos-card-item">
+        <div class="news-card-item">
             <img class="news-card-top" src="./img/new-4.jpg">
           <div class="videos-card-body">
             <div class="videos-card-label">NEWS</div>
@@ -453,7 +463,7 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
     </div>
     <div class="news-card">
       <a href="#" class="videos-link">
-        <div class="videos-card-item">
+        <div class="news-card-item">
             <img class="news-card-top" src="./img/new-5.jpg">
           <div class="videos-card-body">
             <div class="videos-card-label">Altcoins</div>
@@ -464,7 +474,7 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
     </div>
     <div class="news-card">
       <a href="#" class="videos-link">
-        <div class="videos-card-item">
+        <div class="news-card-item">
             <img class="news-card-top" src="./img/new-6.jpg">
           <div class="videos-card-body">
             <div class="videos-card-label">NEWS</div>
@@ -475,7 +485,7 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
     </div>
     <div class="news-card">
       <a href="#" class="videos-link">
-        <div class="videos-card-item">
+        <div class="news-card-item">
             <img class="news-card-top" src="./img/new-7.jpg">
           <div class="videos-card-body">
             <div class="videos-card-label">Business</div>
@@ -486,7 +496,7 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
     </div>
     <div class="news-card">
       <a href="#" class="videos-link">
-        <div class="videos-card-item">
+        <div class="news-card-item">
             <img class="news-card-top" src="./img/new-8.jpg">
           <div class="videos-card-body">
             <div class="videos-card-label">Altcoins</div>
@@ -498,6 +508,497 @@ ets/metamask-icon.svg" alt="MetaMask icon" class="metamask-icon">               
   </div>
   <div class="news-btn btn-green">
     <a class="green-text" href="#">View All Crypto News</a>
+  </div>
+</section>
+
+  <section class="exchanges">
+    <div class="exchanges-container">
+      <div class="exchanges-left">
+        <h2>Fact-Based Advice on Choosing The Best Crypto Exchanges</h2>
+        <p>In order to provide fact-based advice on crypto exchanges, our team of crypto researchers have crafted a 5-step review process.</p>
+        <ol>
+          <li>Collect real user insights, experiences & opinions</li>
+          <li>Analyse all cryptocurrency exchanges</li>
+          <li>Try-out the crypto exchanges ourselves</li>
+          <li>Investigate gathered data & score the exchanges</li>
+          <li>Review & publish best crypto exchange reviews</li>
+        </ol>
+        <p>The strict review process is created to ensure that only fact-checked information is presented to our readers. The team’s daily aim is to transform the complex & confusing crypto world into a simple & rewarding opportunity.</p>
+      </div>
+      <div class="exchanges-right">
+        <img src="https://www.bitdegree.org/assets/homepage/crypto-exchanges.png" alt="exchanges dashboard">
+      </div>
+    </div>
+   
+  </section>
+
+  <section class="evaluated">
+    <div class="evaluated-first">
+      <h2>Best-evaluated Cryptocurrency Exchange Comparisons</h2>
+      <p>Eliminate all the unnecessary steps and instantly compare best cryptocurrency exhchanges side by side. Base your decision on factual information and unbiased research. Whether it’s cryptocurrency exchange fees comparison or different feature evaluation, find everything you need to know here.</p>
+    </div>
+    
+    <div class="evaluated-container">
+      <div class="container-left">
+        <img src="https://www.bitdegree.org/crypto/storage/media/images/trezor-wallet-review-logo-small.o.png" alt="test">
+        <a href="#" class="evaluated-link" class="comparsion-btn-lin">Read Review</a>
+      </div>
+      <div class="container-main">
+        <div class="container-main-accuracy">
+          <div class="wrapper-accuracy">
+            <div class="verified">
+              <img src="https://www.bitdegree.org/assets/homepage/icons/verified.png" alt="">
+              <div class="verified-content">Verified</div>
+            </div>
+            <div class="staff">STAFF PICK</div>
+           
+          </div>
+          <h2>$50 TREZOR VOUCHER</h2>
+          <h5>Get Trezor Starter Pack + $50 Voucher</h5>
+          <p>Secure your crypto assets to the fullest with the Trezor Starter Pack & get a valuable $50 Trezor Voucher for even more protection!</p>
+          <div class="container-information">
+            <span>
+              <i class="fas fa-clock"></i>
+              Expiration Date: 20/05/2022
+            </span>
+            <span>
+              <i class="fas fa-user-friends"></i>
+              3827 People Used 
+            </span>
+            <span>
+              <i class="fas fa-ticket-alt"></i>
+              Only 16 left
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="container-right">
+        <div class="container-rating">
+          <span class="rating-first">Rating</span>
+          <div class="container-rating-stats">
+            <span>5.0</span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+        </div>
+        <div class="container-button btn-green-sm">
+          <a href="#">Get Coupon</a>
+        </div>
+        <div class="container-right-link">
+          <a href="#" class="evaluated-link">See All Provider Coupons</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="comparison">
+    <div class="comparison-mb"> 
+    <table>
+      
+        <thead class="">
+          <tr>
+            <th class="comparison-header-light">Winner</th>
+            <th>#2 Place</th>
+            <th>#3 Place</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="comparison-title">
+            <td class="comparison-title-light">
+              <div>
+                <img src="https://www.bitdegree.org/crypto/storage/media/images/binance-logo-5f0ff2a0596fb.o.png" alt="Binance logo">
+              </div>
+              <div class="">Binance</div>
+            </td>
+            <td>
+              <div>
+                <img src="https://www.bitdegree.org/crypto/storage/media/images/coinbase-logo-small.o.png" alt="Coinbase logo">
+              </div>
+              <div class="">COINBASE</div>
+            </td>
+            <td>
+              <div>
+                <img src="https://www.bitdegree.org/crypto/storage/media/images/kucoin-logo.o.png" alt="Kucoin logo">
+              </div>
+              <div class="">KUCOIN</div>
+            </td>
+          </tr>
+          <tr class="comparison-score">
+            <td class="comparison-score-light">
+              <div>9.8</div>
+              <div class="comparison-icon">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </td>
+            <td>
+              <div class="crytoexchange-score-text">9.4</div>
+             
+             <div class="">
+
+             </div> <div class="comparison-icon">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </td>
+            <td>
+              <div>9.1</div>
+              <div class="comparison-icon">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </td>
+          </tr>
+          <tr class="desc-light">
+            <td class="text-light">
+              Best for Beginners or Advanced Users
+            </td>
+            <td>
+              Best for Buying Cryptocurrencies With Your Fiat Money
+            </td>
+            <td>
+              Best for Buying & Selling Crypto with Small Fees
+            </td>
+          </tr>
+          <tr class="desc-light">
+            <td class="text-light">
+              US EU AS AF
+            </td>
+            <td>
+              US EU AS AF Australia
+            </td>
+            <td>
+              US EU AS AF
+            </td>
+          </tr>
+          <tr class="desc-light">
+            <td class="text-light">
+              One of the leading crypto exchange platforms in the industry.
+            </td>
+            <td>
+              A reliable, well-known and respected cryptocurrency exchange platform.
+            </td>
+            <td>
+              A reliable and well-established cryptocurrency exchange platform.
+            </td>
+          </tr>
+          <tr class="comparison-action">
+            <td class="comparison-action-light">
+              <div class="btn-green-sm">
+                <a href="#">Visit Site</a>
+              </div>
+              <div>
+                <a href="#" class="comparsion-btn-link">Read Review</a>
+              </div>
+            </td>
+            <td class="comparison-action">
+              <div class="btn-green-sm">
+                <a href="#">Visit Site</a>
+              </div>
+              <div>
+                <a href="#" class="comparsion-btn-link">Read Review</a>
+              </div>
+            </td>
+            <td class="comparison-action">
+              <div class="btn-green-sm">
+                <a href="#">Visit Site</a>
+              </div>
+              <div>
+                <a href="#" class="comparsion-btn-link">Read Review</a>
+              </div>
+            </td>
+          </tr>
+          
+        </tbody>
+     
+    </table>
+    </div>
+  </section>
+
+  <section class="cryptoexchange">
+    <div class="cryptoexchange-container">
+      <div class="cryptoexchange-card">
+        <div class="cryptoexchange-card-top">
+          <div>
+            <img src="https://www.bitdegree.org/crypto/storage/media/images/coinbase-logo-small.o.png" alt="Coinbase logo">
+            <span>Coinbase</span>
+          </div>
+          <div>
+            <img src="https://www.bitdegree.org/crypto/storage/media/images/binance-logo-5f0ff2a0596fb.o.png" alt="Binance logo">
+            <span>Binance</span>
+          </div>
+        </div>
+        <div class="cryptoexchange-card-main">
+          <div class="crytoexchange-card-point">
+            <div>
+              <div class="crytoexchange-score-text">9.4</div>
+              <div class="crytoexchange-star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="crytoexchange-positon">VS</div>
+          <div class="crytoexchange-card-point">
+            <div>
+              <div class="crytoexchange-score-text">9.8</div>
+              <div class="crytoexchange-star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="btn-green-sm crytoexchange-btn">
+          <a href="#">Compare</a>
+        </div>
+      </div>
+      <div class="cryptoexchange-card">
+        <div class="cryptoexchange-card-top">
+          <div>
+            <img src="https://www.bitdegree.org/crypto/storage/media/images/coinbase-logo-small.o.png" alt="Coinbase logo">
+            <span>Coinbase</span>
+          </div>
+          <div>
+            <img src="https://www.bitdegree.org/crypto/storage/media/images/kraken-logo.o.png" alt="Binance logo">
+            <span>Kraken</span>
+          </div>
+        </div>
+        <div class="cryptoexchange-card-main">
+          <div class="crytoexchange-card-point">
+            <div>
+              <div class="crytoexchange-score-text">9.4</div>
+              <div class="crytoexchange-star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="crytoexchange-positon">VS</div>
+          <div class="crytoexchange-card-point">
+            <div>
+              <div class="crytoexchange-score-text">8.6</div>
+              <div class="crytoexchange-star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+              
+          </div>
+        </div>
+        <div class="btn-green-sm crytoexchange-btn">
+          <a href="#">Compare</a>
+        </div>
+      </div>
+      <div class="cryptoexchange-card">
+        <div class="cryptoexchange-card-top">
+          <div>
+            <img src="https://www.bitdegree.org/crypto/storage/media/images/coinbase-logo-small.o.png" alt="Coinbase logo">
+            <span>Coinbase</span>
+          </div>
+          <div>
+            <img src="https://www.bitdegree.org/crypto/storage/media/images/coinmama-logo-5fa561580ed76.o.png" alt="Coinmama logo">
+            <span>COINMAMA</span>
+          </div>
+        </div>
+        <div class="cryptoexchange-card-main">
+          <div class="crytoexchange-card-point">
+            <div>
+              <div class="crytoexchange-score-text">9.4</div>
+              <div class="crytoexchange-star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="crytoexchange-positon">VS</div>
+          <div class="crytoexchange-card-point">
+            <div>
+              <div class="crytoexchange-score-text">8.1</div>
+              <div class="crytoexchange-star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+              
+          </div>
+        </div>
+        <div class="btn-green-sm crytoexchange-btn">
+          <a href="#">Compare</a>
+        </div>
+      </div>
+       <div class="cryptoexchange-card">
+        <div class="cryptoexchange-card-top">
+          <div>
+            <img src="https://www.bitdegree.org/crypto/storage/media/images/kraken-logo.o.png" alt="Kraken logo">
+            <span>Coinbase</span>
+          </div>
+          <div>
+            <img src="https://www.bitdegree.org/crypto/storage/media/images/binance-logo-5f0ff2a0596fb.o.png" alt="Binance logo">
+            <span>Binance</span>
+          </div>
+        </div>
+        <div class="cryptoexchange-card-main">
+          <div class="crytoexchange-card-point">
+            <div>
+              <div class="crytoexchange-score-text">8.6</div>
+              <div class="crytoexchange-star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>    
+          </div>
+          <div class="crytoexchange-positon">VS</div>
+          <div class="crytoexchange-card-point">
+            <div>
+              <div class="crytoexchange-score-text">9.8</div>
+              <div class="crytoexchange-star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>    
+          </div>
+        </div>
+        <div class="btn-green-sm crytoexchange-btn">
+          <a href="#">Compare</a>
+        </div>
+      </div>
+     
+    </div>
+  </section>
+
+  <section class="videos">
+    <h2>Hundreds of Tutorials Teaching Millions What Is Crypto and How To Use It</h2>
+    <p class="videos-desc">Everything you need to know about crypto & blockchain. The secrets of the fastest growing industry are at your fingertips.</p>
+  <div class="videos-container">
+    <div class="news-card">
+      <a href="#" class="videos-link">
+        <div class="news-card-item">
+            <img class="news-card-top tutorials-card-top" 
+            src="https://www.bitdegree.org/crypto/storage/media/images/how-to-use-netcoins-canada-featured.o.jpg" alt="What is an Automated Market Maker in Crypto? (Animated)">
+          <div class="videos-card-body">
+            <div class="videos-card-label">TUTORIAL</div>
+            <p class="videos-card-desc">How to Use Netcoins Canada: A Thorough Guide</p>
+          </div>
+        </div>
+      </a>    
+    </div>
+    <div class="news-card">
+      <a href="#" class="videos-link">
+        <div class="news-card-item">
+            <img class="news-card-top tutorials-card-top" src="https://www.bitdegree.org/crypto/storage/media/images/binance-earn-featured.o.jpg">
+          <div class="videos-card-body">
+            <div class="videos-card-label">TUTORIAL</div>
+            <p class="videos-card-desc">Binance Earn: A Variety of Ways to Earn Passive Crypto Gains</p>
+          </div>
+        </div>
+      </a>    
+    </div>
+    <div class="news-card">
+      <a href="#" class="videos-link">
+        <div class="news-card-item">
+            <img class="news-card-top tutorials-card-top" src="https://www.bitdegree.org/crypto/storage/media/images/how-to-buy-mars4-featured-6245baba9d2ef.o.jpg">
+          <div class="videos-card-body">
+            <div class="videos-card-label">TUTORIAL</div>
+            <p class="videos-card-desc">How to Buy MARS4 Tokens & NFTs: A Comprehensive Guide</p>
+          </div>
+        </div>
+      </a>    
+    </div>
+    <div class="news-card">
+      <a href="#" class="videos-link">
+        <div class="news-card-item">
+            <img class="news-card-top tutorials-card-top" src="https://www.bitdegree.org/crypto/storage/media/images/binance-staking-featured.o.jpg">
+          <div class="videos-card-body">
+            <div class="videos-card-label">TUTORIAL</div>
+            <p class="videos-card-desc">Binance Staking: A Full-Fledged Tutorial for 2022</p>
+          </div>
+        </div>
+      </a>    
+    </div>
+    <div class="news-card">
+      <a href="#" class="videos-link">
+        <div class="news-card-item">
+            <img class="news-card-top tutorials-card-top" src="https://www.bitdegree.org/crypto/storage/media/images/how-to-use-eqifi-featured.o.jpg">
+          <div class="videos-card-body">
+            <div class="videos-card-label">TUTORIAL</div>
+            <p class="videos-card-desc">How to Use EQIFi: An All-Around, Comprehensive Tutorial</p>
+          </div>
+        </div>
+      </a>    
+    </div>
+    <div class="news-card">
+      <a href="#" class="videos-link">
+        <div class="news-card-item">
+            <img class="news-card-top tutorials-card-top" src="https://www.bitdegree.org/crypto/storage/media/images/nft-gaming-featured.o.jpg">
+          <div class="videos-card-body">
+            <div class="videos-card-label">TUTORIAL</div>
+            <p class="videos-card-desc">NFT Gaming: How to Buy Gaming NFTs in Order to Play-to-Earn?</p>
+          </div>
+        </div>
+      </a>    
+    </div>
+    <div class="news-card">
+      <a href="#" class="videos-link">
+        <div class="news-card-item">
+            <img class="news-card-top tutorials-card-top" src="https://www.bitdegree.org/crypto/storage/media/images/defi-scam-featured.o.jpg">
+          <div class="videos-card-body">
+            <div class="videos-card-label">TUTORIAL</div>
+            <p class="videos-card-desc">How to Avoid DeFi Scams While You Trade on dApps?</p>
+          </div>
+        </div>
+      </a>    
+    </div>
+    <div class="news-card">
+      <a href="#" class="videos-link">
+        <div class="news-card-item">
+            <img class="news-card-top tutorials-card-top" src="https://www.bitdegree.org/crypto/storage/media/images/best-time-to-buy-bitcoins-featured.o.jpg">
+          <div class="videos-card-body">
+            <div class="videos-card-label">TUTORIAL</div>
+            <p class="videos-card-desc">What is the Best Time to Buy Bitcoins?</p>
+          </div>
+        </div>
+      </a>    
+    </div>
+  </div>
+  <div class="tutorials-btn btn-green">
+    <a class="green-text " href="#">View All Reviews & Tutorials</a>
   </div>
 </section>
   <script src="./JS/script.js"></script>

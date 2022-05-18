@@ -1,0 +1,216 @@
+/* table */
+@media  (min-width: 767px) {
+  .header-icon-bars {
+    display: none;
+  }
+  .header-img-mobile {
+    display: none;
+  }
+} 
+
+/* Mobile */
+@media (max-width: 477px) {
+  /* header */
+  .header-icon-th {
+    display: none;
+  }
+  .header-img-mobile {
+    display: inline-block;
+    margin: 0 16px 0 0;
+    padding: 8px 0;
+  }
+  .header-img-mobile img {
+    max-width:103px;
+    height: 28px;
+  }
+  .header-dropdown {
+    padding:8px 10px;
+  }
+  .header-icon-bars {
+    font-size: 26px;
+
+  }
+  .header-img {
+    display: none ;
+  }
+  .header-navigations {
+    display:none;
+  }
+  /* banner */
+  .banner {
+    background-image: url("https://www.bitdegree.org/assets/banner-mobile.png");
+    padding: 80px 0 45px;
+    background-position: 100% 10%;
+  }
+  .banner h1 {
+    font-size: 34px;
+    line-height:38px;
+    margin: 0 0 10px;
+    text-align: center;
+  }
+  .banner p {
+    margin: 32px 28px 35.2px;
+    padding: 0 15px;
+  }
+  .banner-container {
+    margin: 0;
+    padding: 0 15px;
+  }
+  .header-menu-container {
+    grid-template-columns: repeat(1, 1fr);
+    left: 0;;
+    width: 98%;
+    overflow-y: scroll;
+    padding: 24px 24px 24px 2px;
+  }
+  /* partner */
+  .partner-container {
+    flex-wrap: wrap;
+  }
+  /* cryptoCourses */
+  .cryptoCourses {
+    padding:48px 0 0;
+  }
+  /* categories */
+  .container-categories {
+    overflow-x: hidden;
+    white-space: nowrap;
+  }
+  .container-categories .test {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow:auto;
+  }
+  
+  /* Input */
+  .container-input {
+    margin: 0 0 48px;
+  }
+  .container-input input {
+    max-width:344px;
+  }
+  /* featured */
+  .featured-container-test {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: auto;
+    width: 100%;
+  }
+  .featured-card {
+    max-width:100%
+  }
+  /* .Learn */
+  .Learn-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Learn-container img {
+    padding: 0 15px;
+    margin: 0;
+  }
+  .Learn-container-content {
+    padding: 0;
+    right: 0;
+  }
+  .text-title {
+    text-align: center;
+  }
+  /* Videos */
+  .videos h2{
+    padding: 0 15px;
+  }
+  .videos-desc {
+    padding: 0 15px;
+  }
+  .videos-container {
+    flex-direction: column;
+  }
+  .videos-card {
+    max-width: 100%;
+  }
+  .videos-card-item {
+    max-width: 337px;
+  }
+  .videos-positon-relative {
+    width: 337px;
+  }
+  .videos-card-top {
+    max-width:337px;
+  }
+  /* News */
+  .news-card {
+    max-width:100%;
+  }
+  .news-card-top {
+    max-width:337px;
+  }
+  .news-card-item {
+    max-width:336px;
+  }
+  /* exchanges */
+  .exchanges-container {
+    flex-direction: column;
+  }
+  .exchanges-right img {
+    display:none;
+  }
+  /* evaluated */
+  .evaluated {
+    margin: 48px 0;
+  }
+  .evaluated-container {
+    flex-direction: column;
+  }
+  .container-left {
+    margin-bottom: 16px;
+    padding: 0 15px;
+  }
+  .container-left img {
+    max-width:267.33px;
+  }
+  .wrapper-accuracy {
+    justify-content:center;
+  }
+  .container-main-accuracy {
+    text-align:center;
+    padding: 0 15px;
+  }
+  .container-main-accuracy p {
+    max-width:267.33px;
+  }
+  .container-right {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center
+  }
+  /* comparison */
+  .comparison-mb {
+    padding-left: 15px;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: auto;
+  }
+  /* cryptoexchange */
+  .cryptoexchange-container {
+    flex-direction:column;
+  }
+  .cryptoexchange-card {
+    width: 100%;
+    margin: 24px 0;
+  }
+  .cryptoexchange-card-top div span {
+    display:block;
+  }
+  .crytoexchange-btn {
+    background: #9884fc;
+    border-color: #9884fc;
+  }
+ 
+}
