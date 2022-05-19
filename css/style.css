@@ -1239,12 +1239,12 @@ p {
 .header-dropdown:hover {
   background: hsla(0,0%,100%,.2);
   cursor: pointer;
+} 
+.header-dropdown:focus ~ .header-menu {
+  display: block;
 }
 .header-menu {
   display: none;
-}
-.header-dropdown ~ .header-menu {
-  display: block;
 }
 .header-dropdown svg {
   pointer-events: none;
