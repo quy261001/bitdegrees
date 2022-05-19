@@ -431,12 +431,7 @@ p {
   margin-bottom: 24px;
   /* overflow: hidden; */
 }
-.featured-container {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  overflow: auto;
-}
+
 .featured-title {
   display: flex;
   align-items: center;
@@ -1534,7 +1529,8 @@ p {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  width: 100%;
+  overflow: auto;
 }
 .featured-container-test {
   position: relative;
