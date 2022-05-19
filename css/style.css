@@ -429,18 +429,13 @@ p {
   margin: 0 auto;
   padding-bottom: 32px;
   margin-bottom: 24px;
+  /* overflow: hidden; */
 }
 .featured-container {
-  position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.featured-container-test {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  overflow: auto;
 }
 .featured-title {
   display: flex;
