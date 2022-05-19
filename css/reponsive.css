@@ -1,12 +1,198 @@
-/* table */
-@media  (min-width: 767px) {
+/* pc */
+@media (min-width:1024px) and (max-width:1140px){
   .header-icon-bars {
     display: none;
   }
   .header-img-mobile {
     display: none;
   }
+  .featured-btn {
+    width: 192px;
+  }
+  .featured-card img {
+    max-width:210px;
+  }
+  .Learn-container img {
+    max-width:465px;
+  }
+  .videos-desc {
+    font-size: 16px;
+  }
+  .videos-card-top {
+    width: 300px;
+  }
+  .videos-positon-relative {
+    width: 300px;
+  }
+  .news-btn,
+  .videos-btn {
+    min-width: 315px;
+  }
+  .news-card-top {
+    max-width:217px;
+  }
+  .news-card-item {
+    width: 217px;
+  }
+  .exchanges-container {
+    /* flex-direction: column; */
+  }
+  .exchanges-right img {
+    max-width: 512px;
+  }
+  .container-left img {
+    max-width:190px;
+  }
+  .container-main-accuracy,
+  .container-main-accuracy p {
+    max-width:400px;
+  }
+  .cryptoexchange-container {
+    justify-content:center;
+    margin: 0 54px;
+  }
+}
+  
+
+
+/* table */
+@media  (min-width: 767px) and (max-width: 1023px) {
+  .header-icon-bars {
+    display: none;
+  }
+  .header-img-mobile {
+    display: none;
+  }
+  .header-navigations {
+    display: none;
+  }
+  .banner {
+    background-image: url("https://www.bitdegree.org/assets/banner-mobile.png");
+    padding: 80px 0 45px;
+    background-position: 100% 10%;
+  }
+  .banner-container h1 {
+    font-size:34.4px;
+  }
+  .banner-container {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .header-menu-container {
+    width:400px;
+    height: 904px;
+    top: 36%;
+  }
+  .partner-container {
+    flex-wrap: wrap;
+  }
+  .test {
+    display:flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: auto;
+    align-items: center;
+    white-space: nowrap;
+  } 
+  .featured-container-test {
+      display:flex;
+      flex-wrap: nowrap;
+      width: 100%;
+      overflow: auto;
+      align-items: center;
+    } 
+  .featured-card {
+    max-width:100%;
+  }
+  .Learn-container img {
+      max-width:345px;
+  }
+  .videos-card {
+    max-width:50%;
+  }
+  .news-card {
+    max-width:50%;
+  }
+  .news-card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+  }
+  .news-card-top {
+    max-width:330px;
+  }
+  .exchanges-container {
+    flex-direction: column;
+  }
+  .evaluated-container {
+    flex-direction: column;
+    align-items: center;  
+  }
+  .container-main-accuracy {
+    text-align: center;
+  }
+  .wrapper-accuracy {
+    justify-content:center;
+    margin: 16px 0;
+  }
+  .container-rating {
+    text-align: center;
+  }
+  .evaluated-link {
+    text-align: center;
+  }
+  .container-left img {
+    max-width: 300px;
+  }
+  .comparison-mb {
+    padding-left: 15px;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: auto;
+  }
+  .cryptoexchange-container {
+    flex-direction: column;
+  }
+  .cryptoexchange-card {
+    width: 430px;
+    padding: 0;
+    margin: 24px auto;
+  
+  }
+  .btn-green-sm {
+    width: 100%;
+    background-color: #9884fc;
+    border-color: #9884fc;
+  }
+  .cryptoexchange-card-top img {
+    max-width:180px;
+  }
+  .videos-card-body {
+    max-width:330px;
+  }
+  .exchanges-right img {
+    display: none ;
+  }
+  .collections-container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .collections-card {
+    width: 100%;
+  }
+  .footer-container {
+    margin: 0;
+  }
+  .footer-grid-item {
+    width: 50%;
+  }
+  .footer-grid-item:last-child {
+    width: 60%;
+  }
 } 
+
 
 /* Mobile */
 @media (max-width: 477px) {
@@ -143,6 +329,7 @@
   /* News */
   .news-card {
     max-width:100%;
+    margin-bottom: 10px;
   }
   .news-card-top {
     max-width:337px;
@@ -212,5 +399,37 @@
     background: #9884fc;
     border-color: #9884fc;
   }
+ /* collections */
+ .collections-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  flex-direction: column;
+ }
+ .collections-card {
+   max-width: 187px;
+   width: 100%;
+ }
  
+/* footer */
+.footer-container {
+  padding: 40px 0 20px 0;
+  margin: 0;
+}
+.footer-grid-item {
+  width: 50%;
+}
+.footer-grid-item:last-child {
+  width: 100%;
+}
+.branding-container {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding-left: 15px;
+}
+.branding-container p {
+  padding-left: 40px;
+}
 }
