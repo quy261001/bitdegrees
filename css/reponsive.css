@@ -203,7 +203,7 @@
 
 
 /* Mobile */
-@media (max-width: 477px) {
+@media (max-width: 477px) and (min-width:766px){
   /* header */
   .header-icon-th {
     display: none;
